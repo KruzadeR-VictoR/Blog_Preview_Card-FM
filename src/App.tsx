@@ -1,5 +1,4 @@
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
-import "./App.css";
+import { Flex, Heading, Image, Text } from "@chakra-ui/react";
 import articeImg from "../src/assets/illustration-article.svg";
 import avatarImg from "../src/assets/image-avatar.webp";
 
@@ -22,10 +21,10 @@ function App() {
           bg={"White"}
           maxW={"30rem"}
           rounded={"1.5rem"}
-          shadow={"7px 7px hsl(0, 0%, 7%)"}          
-          transition={'all .3s ease'}
+          shadow={"7px 7px hsl(0, 0%, 7%)"}
+          transition={"all .3s ease"}
           _hover={{
-            boxShadow:"10px 10px hsl(0, 0%, 7%)",            
+            boxShadow: "10px 10px hsl(0, 0%, 7%)",
           }}
         >
           {/* card image  */}
@@ -49,10 +48,10 @@ function App() {
           <Heading
             fontSize={"1.4rem"}
             fontWeight={800}
-            color={'Black'}
+            color={"Black"}
             my={2}
-            cursor={'pointer'}
-            transition={'all .3s ease'}
+            cursor={"pointer"}
+            transition={"all .3s ease"}
             _hover={{ color: "Yellow" }}
           >
             HTML & CSS foundations
