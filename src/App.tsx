@@ -46,6 +46,7 @@ function App() {
             Published 21 Dec 2023
           </Text>
           <Heading
+            as={'h1'}
             fontSize={"1.4rem"}
             fontWeight={800}
             color={"Black"}
